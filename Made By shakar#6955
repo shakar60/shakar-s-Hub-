@@ -492,6 +492,6 @@ end)
 
 
 Tab3Section:NewButton("Dh Tenaki Camlock", "Loads a Script For Dh", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tenaaki/GenericAimbot/main/v1.0.0"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/Tenkai./main/imean.Tenaki",true))()
     print("Clicked")
 end)
