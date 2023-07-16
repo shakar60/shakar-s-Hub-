@@ -523,7 +523,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/mai
 end)
 
 Tab3Section:NewButton("Pluto Script", "Loads Pluto Script For Dh", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()l
     print("Clicked")
 end)
 
