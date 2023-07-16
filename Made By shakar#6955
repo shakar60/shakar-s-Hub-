@@ -269,7 +269,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/8G5wzp3L"))()
 end)
 
 Tab3Section:NewButton("Fake Macro", "Loads Fake Macro For Alot Of Diffrent Maps", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/Fake.Macro/main/Updated",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/Macro/main/M.N.C",true))()
     print("Clicked")
 end)
 
