@@ -510,3 +510,24 @@ Tab2Section:NewButton("Shaders", "Gives You Shader In Every Map", function()
 loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'),true))()
     print("Clicked")
 end)
+
+
+Tab3Section:NewButton("Camlock V3", "Loads Camlock Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/camlockv3/main/kjnjnjn", true))()
+    print("Clicked")
+end)
+
+Tab3Section:NewButton("Faded Script", "Loads Faded Script For Dh", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+    print("Clicked")
+end)
+
+Tab3Section:NewButton("Pluto Script", "Loads Pluto Script For Dh", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+    print("Clicked")
+end)
+
+Tab3Section:NewButton("RednDot Lock", "Loads Red Dot Lock", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/reddot1/main/reddot1", true))()
+    print("Clicked")
+end)
