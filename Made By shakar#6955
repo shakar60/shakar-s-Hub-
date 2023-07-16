@@ -243,7 +243,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/C/main/Tool"
     print("Clicked")
 end)
 
-Tab3Section:NewButton("Dhat Lock Script", "Loads Dhat Lock Tool", function()
+Tab3Section:NewButton("Dh ryzzchips Lock Script", "Loads Dhat Lock Tool", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/j08xM9mW", true))()
     print("Clicked")
 end)
@@ -268,8 +268,8 @@ loadstring(game:HttpGet("https://pastebin.com/raw/8G5wzp3L"))()
     print("Clicked")
 end)
 
-Tab3Section:NewButton("Dhat Fake Macro", "Loads Dhat Fake Macro", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/Zk7tY25L", true))()
+Tab3Section:NewButton("Fake Macro", "Loads Fake Macro For Alot Of Diffrent Maps", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/Fake.Macro/main/Updated",true))()
     print("Clicked")
 end)
 
@@ -493,5 +493,15 @@ end)
 
 Tab3Section:NewButton("Dh Tenaki Camlock", "Loads a Script For Dh", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/Tenkai./main/imean.Tenaki",true))()
+    print("Clicked")
+end)
+
+Tab5Section:NewButton("M tool", "Gives You M Tool", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/M/main/Tool",true))()
+    print("Clicked")
+end)
+
+Tab5Section:NewButton("N tool", "Gives You N Tool", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shakar60/N/main/Tool",true))()
     print("Clicked")
 end)
