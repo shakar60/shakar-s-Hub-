@@ -104,6 +104,11 @@ loadstring(game:HttpGet("https://pastebin.com/raw/zAuR0JUT"))()
     print("Clicked")
 end)
 
+Tab2Section:NewButton("Synapse X Executor", "Loads Synapse X Executor", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/Synapse-X-Remake.lua"))()
+    print("Clicked")
+end)
+
 Tab2Section:NewButton("Race Car Script", "Loads Fe Race Car script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukezz/Fe-Scripts/main/Fe%20Racecar"))()
     print("Clicked")
