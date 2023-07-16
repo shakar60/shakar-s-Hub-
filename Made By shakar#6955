@@ -3,7 +3,7 @@ local Window = Library.CreateLib("shakars hub", "Synapse")
 
 -- Tabs
 
-local Tab1 = Window:NewTab("Fe scripts")
+local Tab1 = Window:NewTab("Scripts")
 local Tab2 = Window:NewTab("Hubs/Guis")
 local Tab3 = Window:NewTab("Dh Scripts")
 local Tab7 = Window:NewTab("Admin commands")
@@ -482,5 +482,11 @@ end)
 
 Tab3Section:NewButton("Dh Nukermode", "Loads a Script For Dh", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
+    print("Clicked")
+end)
+
+
+Tab3Section:NewButton("Dh Tenaki Camlock", "Loads a Script For Dh", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tenaaki/GenericAimbot/main/v1.0.0"))()
     print("Clicked")
 end)
