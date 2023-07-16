@@ -527,7 +527,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Lo
     print("Clicked")
 end)
 
-Tab3Section:NewButton("RednDot Lock", "Loads Red Dot Lock", function()
+Tab3Section:NewButton("Red Dot Lock", "Loads Red Dot Lock", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/scripthubekitten/reddot1/main/reddot1", true))()
     print("Clicked")
 end)
